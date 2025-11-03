@@ -1,0 +1,45 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#form button{
+    background-color: blue;
+}
+
+
+#list{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.list-item{
+    list-style: none;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+#app{
+    max-width: 600px;
+    margin: auto;
+}
+
+.edit-btn{
+    background-color: green;
+}
+.del-btn{
+    background-color: red;
+}
+
+button{
+    border-radius: 5px;
+    box-shadow: 0px 3px 7px grey;
+}
+button:hover{
+    cursor: pointer;
+    color: white;
+}
+button:active{
+    box-shadow: 0px 1px 7px grey;
+}
